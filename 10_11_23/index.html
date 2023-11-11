@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life is a joke</title>
+    <style>
+        .center{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #btn{
+            padding: .5rem;
+            background-color: blue;
+            color: white;
+            border-radius: .5rem;
+            border:  1px solid black;
+        }
+        #btn:hover{
+            cursor: pointer;
+            background-color: rgb(75, 75, 237);
+        }
+        .result{
+            background-color: antiquewhite;
+            border-radius: .7rem;
+            min-height: 40vh;
+            min-width: 80vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 class="center">Random joke</h1>
+    <div class="container center">
+        <div class="result">
+
+        </div>
+        <div class="button center">
+            <button id="btn">Find joke</button>
+        </div>
+    </div>
+    <!-- <script src="async.js"></script> -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
